@@ -8,7 +8,7 @@ export default function AboutMe() {
       <Row>
         <Col>
           <h1>Meet Adam Stovall</h1>
-          <img src={picture} alt="headshot" width="300px" />
+          <img src={picture} alt="headshot" width="300px" height="375px" />
         </Col>
       </Row>
       <Row className="justify-content-center mt-3">
