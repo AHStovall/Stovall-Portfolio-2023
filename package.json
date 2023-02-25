@@ -1,8 +1,8 @@
 {
   "name": "stovall-portfolio",
   "version": "0.1.0",
-  "homepage": "https://ahstovall.github.io/stovall-portfolio-2023/",
-  "private": true,
+  "homepage": "https://ahstovall.github.io/Stovall-Portfolio-2023/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
