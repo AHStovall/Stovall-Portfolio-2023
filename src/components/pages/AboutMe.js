@@ -1,17 +1,16 @@
-import React from 'react';
+import Picture from "../Picture";
 
-export default function About() {
+export default function AboutMe() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="aboutme-card ">
+      <h1 className="header">Adam Stovall</h1>
+      <div className="avatar"><Picture /></div>
+      
+      <section className="blurb card-body img-fluid align-items-center shadow-5-strong rounded-4"style={{ width: 500 }}>
+        <div>
+        Meet Adam Stovall, a versatile young professional who has made a career out of bringing creative visions to life through television, film, and event production. With a passion for technology and problem-solving, Adam has recently transitioned into the world of web development and is now a certified full stack web developer.
+      </div>
+      </section>
     </div>
   );
 }

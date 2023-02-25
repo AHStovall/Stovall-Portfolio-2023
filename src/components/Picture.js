@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image } from 'semantic-ui-react'
-import picture from '../images/sara-memoji.png';
+import picture from '../images/profilePicture.jpg';
 // insert image link above
 
 const Picture = () => (

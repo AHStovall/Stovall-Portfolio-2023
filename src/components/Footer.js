@@ -1,3 +1,4 @@
+import React from "react";
 import {
     MDBFooter,
     MDBContainer,
@@ -23,42 +24,35 @@ import {
   
                     <div>
                       <a
-                        href="https://www.facebook.com/sara.no.h.angelo/"
-                        target="_blank" rel="noreferrer"
-                        className="me-4 text-reset"
-                      >
-                        <MDBIcon fab icon="facebook-f" size='lg' />
-                      </a>
-                      <a
-                        href="https://twitter.com/thats_no_h"
+                        href="https://twitter.com/theadamstovall"
                         target="_blank" rel="noreferrer"
                         className="me-4 text-reset"
                       >
                         <MDBIcon fab icon="twitter" size='lg' />
                       </a>
                       <a
-                        href="https://www.instagram.com/noooo_h/"
+                        href="https://www.instagram.com/theadamstovall/"
                         target="_blank" rel="noreferrer"
                         className="me-4 text-reset"
                       >
                         <MDBIcon fab icon="instagram" size='lg'/>
                       </a>
                       <a
-                        href="https://www.linkedin.com/in/sara-angelo/"
+                        href="https://www.linkedin.com/in/adamhstovall/"
                         target="_blank" rel="noreferrer"
                         className="me-4 text-reset"
                       >
                         <MDBIcon fab icon="linkedin" size='lg'/>
                       </a>
                       <a
-                        href="https://github.com/saramangelo"
+                        href="https://github.com/AHStovall"
                         target="_blank" rel="noreferrer"
                         className="me-4 text-reset"
                       >
                         <MDBIcon fab icon="github" size='lg'/>
                       </a>
                       <a
-                        href="mailto:saramangelo@gmail.com"
+                        href="mailto:adamhstovall@gmail.com"
                         className="me-4 text-reset"
                       >
                         <MDBIcon icon="envelope" size='lg'/>
@@ -71,8 +65,8 @@ import {
           </section>
           <div class="footer-copyright text-center p-3 grey lighten-1 text-black-50">
     © 2023 Copyright:
-    <a id="footer-link-react-copyright" class="black-text" href="https://github.com/saramangelo">
-        Sara Angelo
+    <a id="footer-link-react-copyright" class="black-text" href="https://github.com/AHStovall">
+        Adam Stovall
     </a>
   </div>
         </div>

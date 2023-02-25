@@ -1,16 +1,37 @@
-import Picture from "../Picture";
+import React from "react";
+import projectList from "../../utils/projectList";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
-export default function AboutMe() {
+
+export default function Portfolio() {
   return (
-    <div className="aboutme-card ">
-      <h1 className="header">Adam Stovall</h1>
-      <div className="avatar"><Picture /></div>
-      
-      <section className="blurb card-body img-fluid align-items-center shadow-5-strong rounded-4"style={{ width: 500 }}>
-        <div>
-        Meet Adam Stovall, a versatile young professional who has made a career out of bringing creative visions to life through television, film, and event production. With a passion for technology and problem-solving, Adam has recently transitioned into the world of web development and is now a certified full stack web developer.
-      </div>
-      </section>
-    </div>
+    <Container className="text-center mb-5">
+      <h1 className="mb-5">My projects</h1>
+      <Row>
+          {projectList.map((project) => (
+            <div key={project.id} className="col-lg-6">
+              <Card className="text-center mb-5">
+                <Card.Header>
+                  <h2>{project.title}</h2>
+                </Card.Header>
+                <Card.Body>
+                    <img
+                      alt={project.title}
+                      className="img"
+                      src={project.image}
+                      style={{ margin: "0 auto", objectFit: "cover", objectPosition: "top" }}
+                      width="100%"
+                      height="300px"
+                    />
+                    <p>{project.description}</p>
+                    <a href={project.link} className="btn btn-primary stretched-link" target="_blank">
+                      GitHub Repo
+                    </a>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
+      </Row>
+    </Container>
   );
 }
