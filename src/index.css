@@ -1,0 +1,61 @@
+ul.nav.nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+a.nav-link{
+    background-color: #CAEBF2;
+}
+
+a.nav-link.active{
+    background-color: #ff3b3f;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.form-box, .resume-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+div.project-container{
+    background-color: #EFEFEF;
+}
+
+ul.nav.nav-tabs{
+    background-color: #A9A9A9;
+}
+
+/* h1{
+    color: #A9A9A9;
+    background-color: #CAEBF2;
+    padding: 10px;
+} */
+
+p{
+    font-size: medium;
+}
+
+p.bio-text{
+    font-size: large;
+}
+
+input.form-control{
+    background-color: white;
+}
+
+.btn{
+    background-color: #ff3b3f;
+}

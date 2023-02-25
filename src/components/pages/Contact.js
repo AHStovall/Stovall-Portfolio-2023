@@ -82,7 +82,7 @@ function Contact() {
   }
 
   return (
-   <div className="form-container">
+   <div className="form-container form-box">
     <form
     onSubmit={handleSubmit}
       id="form"
